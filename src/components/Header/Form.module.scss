@@ -1,0 +1,50 @@
+.delivery__form,
+.delivery__form div {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.delivery__form input {
+  padding: 10px 16px;
+  margin-left: 12px;
+  margin-right: 40px;
+  border: none;
+  border-radius: 4px;
+  background-color: var(--color-light-grey);
+  color: var(--color-block);
+  font-family: var(--font-family-input);
+  font-size: 16px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.delivery__form label {
+  font-size: 32px;
+}
+
+.delivery__tooltip_container {
+  padding: 0 30px;
+}
+
+.delivery__form_tooltip {
+  position: relative;
+  padding: 10px 20px;
+  color: var(--color-white);
+  background-color: var(--color-black);
+  border-radius: 4px;
+  margin: 0;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: calc(50% - 5px);
+    width: 10px;
+    height: 10px;
+    background-color: var(--color-black);
+    transform: rotate(45deg);
+  }
+}

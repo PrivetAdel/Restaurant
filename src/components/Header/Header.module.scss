@@ -1,0 +1,86 @@
+.header {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 40px;
+  background-color: var(--color-white);
+}
+
+.header h2 {
+  line-height: 61px;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.header__cart {
+  display: flex;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.cart__button {
+  margin-left: auto;
+  padding: 0;
+  padding-right: 20px;
+  font-family: var(--font-family-secondary);
+  background-color: var(--color-pink);
+  border: none;
+  border-radius: 18px;
+  color: var(--color-white);
+  background-image: url('../../assets/icon-basket.svg');
+  background-repeat: no-repeat;
+  background-position: 50px center;
+  min-height: 36px;
+  min-width: 82px;
+  cursor: pointer;
+  transition: 0.3s all;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+
+  &:active {
+    transform: scale(0.9);
+  }
+}
+
+.delivery__container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.delivery__option {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.delivery__option label {
+  border-radius: 4px;
+  background-color: var(--color-light-grey);
+  padding: 15px 20px;
+  font-family: var(--font-family-input);
+  color: var(--color-grey);
+  text-align: center;
+  min-width: 115px;
+  cursor: pointer;
+
+  @media (min-width: 824px) {
+    min-width: 125px;
+  }
+}
+
+.delivery__option input {
+  opacity: 0;
+  margin: 0;
+  font-size: 0;
+  width: 0;
+  height: 0;
+}
+
+.delivery__option input:checked + label {
+  background-color: var(--color-pink);
+  color: var(--color-white);
+}

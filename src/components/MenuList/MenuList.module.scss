@@ -1,0 +1,23 @@
+.menu__container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.category {
+  padding: 40px;
+  background-color: var(--color-light-grey);
+  
+  h2 {
+    margin-top: 40px;
+  }
+}
+
+.category:nth-child(2n) {
+  background-color: var(--color-white);
+}
+
+.category__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}

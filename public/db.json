@@ -1,0 +1,132 @@
+{
+  "categories": [
+    {
+      "id": "burgers",
+      "name": "Бургеры",
+      "products": [1, 2, 3, 4]
+    },
+    {
+      "id": "chicken",
+      "name": "Куриные крылышки",
+      "products": [5, 6, 7]
+    },
+    {
+      "id": "pizzas",
+      "name": "Пицца",
+      "products": [8, 9, 10, 11, 12, 13]
+    }
+  ],
+    
+  "products": {
+    "1": {
+      "id": 1,
+      "name": "Бургер",
+      "price": 350,
+      "delivery": true,
+      "img": "https://pngimg.com/uploads/burger_sandwich/burger_sandwich_PNG96777.png"
+    },
+    "2": {
+      "id": 2,
+      "name": "Бургер с соусом барбекю",
+      "price": 450,
+      "delivery": true,
+      "img": "https://pngimg.com/uploads/burger_sandwich/burger_sandwich_PNG96761.png"
+    },
+    "3": {
+      "id": 3,
+      "name": "Бургер с беконом",
+      "price": 550,
+      "delivery": false,
+      "img": "https://pngimg.com/uploads/burger_sandwich/burger_sandwich_PNG4135.png"
+    },
+    "4": {
+      "id": 4,
+      "name": "Бургер с салатом",
+      "price": 450,
+      "delivery": true,
+      "img": "https://pngimg.com/uploads/burger_sandwich/burger_sandwich_PNG4160.png"
+    },
+    "5": {
+      "id": 5,
+      "name": "Куриные крылышки с чесночным соусом",
+      "price": 450,
+      "delivery": false,
+      "img": "https://pngimg.com/uploads/fried_chicken/fried_chicken_PNG14074.png"
+    },
+    "6": {
+      "id": 6,
+      "name": "Острые куриные крылышки",
+      "price": 450,
+      "delivery": true,
+      "img": "https://pngimg.com/uploads/fried_chicken/fried_chicken_PNG14095.png"
+    },
+    "7": {
+      "id": 7,
+      "name": "Куриные крылышки",
+      "price": 450,
+      "delivery": true,
+      "img": "https://pngimg.com/uploads/fried_chicken/fried_chicken_PNG97921.png"
+    },
+    "8": {
+      "id": 8,
+      "name": "Пицца",
+      "price": 450,
+      "delivery": false,
+      "img": "https://pngimg.com/uploads/pizza/pizza_PNG44095.png"
+    },
+    "9": {
+      "id": 9,
+      "name": "Пицца",
+      "price": 450,
+      "delivery": true,
+      "img": "https://pngimg.com/uploads/pizza/pizza_PNG44092.png"
+    },
+    "10": {
+      "id": 10,
+      "name": "Пицца",
+      "price": 450,
+      "delivery": true,
+      "img": "https://pngimg.com/uploads/pizza/pizza_PNG44077.png"
+    },
+    "11": {
+      "id": 11,
+      "name": "Пицца",
+      "price": 450,
+      "delivery": false,
+      "img": "https://pngimg.com/uploads/pizza/pizza_PNG44073.png"
+    },
+    "12": {
+      "id": 12,
+      "name": "Пицца",
+      "price": 450,
+      "delivery": true,
+      "img": "https://pngimg.com/uploads/pizza/pizza_PNG44066.png"
+    },
+    "13": {
+      "id": 13,
+      "name": "Пицца",
+      "price": 450,
+      "delivery": true,
+      "img": "https://pngimg.com/uploads/pizza/pizza_PNG43988.png"
+    }
+  },
+
+  "footerData": [
+    {
+      "title": "Раздел 1",
+      "items": ["Подраздел", "Подраздел", "Подраздел", "Подраздел", "Подраздел"]
+    },
+    {
+      "title": "Раздел 2",
+      "items": ["Подраздел", "Подраздел", "Подраздел", "Подраздел"]
+    },
+    {
+      "title": "Раздел 3",
+      "items": ["Подраздел", "Подраздел", "Подраздел", "Подраздел", "Подраздел", "Подраздел"]
+    },
+    {
+      "title": "Раздел 4",
+      "items": ["Подраздел", "Подраздел", "Подраздел", "Подраздел", "Подраздел"]
+    }
+  ]
+}

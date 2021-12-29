@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Barlow+Condensed&family=Cabin+Condensed:wght@700&display=swap');
+
+:root {
+    --color-white: #ffffff;
+    --color-pink: #E4002B;
+    --color-light-grey: #F7F6F5;
+    --color-grey: #9D9D9D;
+    --color-black: #000000;
+    
+    --font-family-main: 'Barlow Condensed', sans-serif;
+    --font-family-secondary: 'Cabin Condensed', sans-serif;
+    --font-family-input: 'Abel', sans-serif;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: var(--font-family-main);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }

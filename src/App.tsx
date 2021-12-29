@@ -1,26 +1,29 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { FC, useEffect } from 'react'
+import { observer } from 'mobx-react'
+import Header from './components/Header/Header'
+import Navigation from './components/Navigation/Navigation'
+import MenuList from './components/MenuList/MenuList'
+import Footer from './components/Footer/Footer'
+import './styles/common.scss'
+import { useStore } from './store/Context'
 
-function App() {
+const App: FC = () => {
+  const store = useStore()
+
+  useEffect(() => {
+    store.getCategories()
+    store.getProducts()
+    store.getFooterData()
+  }, [store])
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header />
+      <Navigation />
+      <MenuList />
+      <Footer />
     </div>
-  );
+  )
 }
 
-export default App;
+export default observer(App)
