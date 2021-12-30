@@ -1,4 +1,7 @@
-.delivery__form,
+.delivery__form {
+  position: relative;
+}
+
 .delivery__form div {
   display: flex;
   flex-wrap: wrap;
